@@ -1,7 +1,6 @@
 # sinaeditor
 Automatically exported from code.google.com/p/sinaeditor
-
-#SinaEditor是基于新浪博客编辑器的开源编辑器。您可以用它来编辑富文本内容。
+SinaEditor是基于新浪博客编辑器的开源编辑器。您可以用它来编辑富文本内容。
 
 编辑器的核心是一个执行队列的调度系统，加入插件来实现功能，并通过事件来驱动编辑器的运行。我们对事件进行了一次封装，有效的解决了匿名事件函数不能回收的问题，减少内存占用的情况。
 
